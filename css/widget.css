@@ -1,0 +1,330 @@
+.widget{
+    float: left;
+    width: 100%;
+}
+/* Widget Default Title Css Start*/
+.widget_default_title{
+    float: left;
+    width: 100%;
+    font-size: 18px;
+    margin: 0 0 24px;
+    font-weight: bold;
+    position: relative;
+    line-height: normal;
+    text-transform: uppercase;
+}
+/* Widget Title Css Start*/
+.widget-title{
+    float: left;
+    width: auto;
+    clear: both;
+    font-size: 20px;
+    text-align: left;
+    margin: 0 0 30px;
+    font-weight: bold;
+    position: relative;
+}
+/*SideBar Widget Title Start*/
+.sidebar .widget{
+    margin: 0 0 36px;
+    padding: 0 0 40px;
+    border-bottom:1px solid #dfdfdf;
+}
+.sidebar .widget-title{
+    font-size: 22px;
+    margin: 0 0 24px;
+}
+.sidebar .widget_categories .widget-title{
+    margin: 0 0 15px;
+}
+.sidebar .widget:first-child .widget-title{
+    margin-top: -6px;
+}
+/*SideBar Widget Title End*/
+/*Search Widget Start*/
+.sidebar .widget .input-field:last-child{
+    margin: 0;
+}
+.sidebar .input-field .search_icon::before{
+    content: "\f002";
+}
+/*Search Widget End*/
+/*Newsletter Widget Start*/
+.widget-description .widget-title{
+    margin: 0 0 18px;
+}
+.widget-description p{
+    margin: 0 0 23px;
+}
+/*Newsletter Widget End*/
+.tags{
+    float: left;
+    width: 100%;
+    margin: 0 0 0 -5px;
+}
+.tags a{
+    float: left;
+    width: auto;
+    font-size:12px;
+    margin: 0 0 5px 5px;
+    line-height: normal;
+    border-radius: 50px;
+    padding: 10px 15px;
+    text-transform: capitalize;
+    font-family: 'Montserrat', sans-serif;
+}
+.tags a:hover{
+    color: #fff;
+}
+/*Latest Post Widget Start*/
+.latest-post-wrap{
+    float: left;
+    width: 100%;
+}
+.latest-post-thumb{
+    float: left;
+    width: 100%;
+    margin: 0 0 30px;
+}
+.latest-post-thumb figure{
+    width: 100px;
+    height: 100px;
+    margin: 0 20px 0 0;
+}
+footer .latest-post-thumb figure{
+    height: 60px;
+    width: 60px;
+
+}
+footer .latest-post-thumb{
+    margin-bottom: 10px;
+
+}
+.latest-post-thumb figure::before{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    content: "";
+    position: absolute;
+}
+.latest-post-thumb:hover figure::before{
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    opacity: 0.8;
+}
+.latest-post-thumb .title{
+    font-size: 14px;
+    margin: 0 0 4px;
+    text-transform: capitalize;
+}
+.latest-post-thumb p{
+    font-size:12px;
+    margin: 0 0 1px; 
+}
+.latest-post-thumb .edu-date{
+    top: auto;
+    padding: 0;
+    left: auto;
+    right: auto;
+    float: left;
+    width: auto;
+    bottom: auto;
+    height: auto;
+    position: relative;
+}
+
+.latest-post-wrap .latest-post-thumb:last-child{
+    margin: 0;
+}
+/*Wordpress Default Widget*/
+.widget_rss,
+.widget_meta,
+.widget_pages,
+.widget_archive,
+.widget_nav_menu,
+.widget_categories,
+.widget_recent_comments,
+.widget_recent_entries {
+    float: left;
+    width: 100%;
+}
+.widget_rss ul,
+.widget_meta ul,
+.widget_pages ul,
+.widget_archive ul,
+.widget_nav_menu ul,
+.widget_categories ul,
+.widget_recent_comments ul,
+.widget_recent_entries ul {
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 100%;
+    list-style: none;
+}
+.widget_rss ul li,
+.widget_meta ul li,
+.widget_pages ul li,
+.widget_archive ul li,
+.widget_nav_menu ul li,
+.widget_categories ul li,
+.widget_recent_comments ul li,
+.widget_recent_entries ul li {
+    float: left;
+    width: 100%;
+    text-align: right;
+    padding: 10px 0 0px;
+    transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+}
+.widget_categories ul li{
+    margin: 0;
+    padding: 0;
+}
+.widget_categories ul li:last-child{
+    border-width: 1px 0;
+}
+.widget_rss > ul > li:first-child,
+.widget_meta > ul > li:first-child,
+.widget_pages > ul > li:first-child,
+.widget_archive > ul > li:first-child,
+.widget_nav_menu > ul > li:first-child,
+.widget_recent_comments > ul > li:first-child,
+.widget_recent_entries > ul > li:first-child {
+    border-width: 0;
+}
+.widget_rss ul li a,
+.widget_meta ul li a,
+.widget_pages ul li a,
+.widget_archive ul li a,
+.widget_nav_menu ul li a,
+.widget_categories ul li a,
+.widget_recent_comments ul li a,
+.widget_recent_entries ul li a {
+    float: left;
+    width: auto;
+    font-size: 14px;
+    margin: 0 0 10px;
+    text-align: left;
+    position: relative;
+    font-weight: normal;
+    line-height: normal;
+    text-transform: capitalize;
+    transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+}
+.widget_categories ul li a{
+    width: 100%;
+    padding:7px 0px; 
+    margin-bottom: 0;
+}
+footer .widget_categories ul li:first-child a{
+    padding-top: 0px;
+}
+.widget_rss ul li,
+.widget_meta ul li,
+.widget_pages ul li,
+.widget_archive ul li,
+.widget_nav_menu ul li,
+.widget_categories ul li,
+.widget_recent_comments ul li,
+.widget_recent_entries ul li,
+.widget_rss ul li a,
+.widget_meta ul li a,
+.widget_pages ul li a,
+.widget_archive ul li a,
+.widget_nav_menu ul li a,
+.widget_categories ul li a,
+.widget_recent_comments ul li a,
+.widget_recent_entries ul li a {
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+}
+.widget_categories ul li a::before {
+    content: "\f105";
+    margin-right: 10px;
+    color: currentColor;
+    display: inline-block;
+    font-family: "FontAwesome";
+    transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+}
+.widget_rss ul .children,
+.widget_meta ul .children,
+.widget_pages ul .children,
+.widget_archive ul .children,
+.widget_nav_menu ul .children,
+.widget_categories ul .children,
+.widget_recent_comments ul .children,
+.widget_recent_entries ul .children {
+    padding-left: 15px;
+    margin: 5px 0 0
+}
+.widget_archive li:hover,
+.widget_categories li:hover {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.widget_categories li:hover{
+    padding: 0;
+}
+.widget_categories li a:hover {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.widget_archive li:hover,
+.widget_archive li:hover a,
+.widget_categories li:hover,
+.widget_categories li:hover a {
+    color: #fff;
+}
+
+
+.widget-contact .contact-info > *{
+    font-size: 14px;
+    font-weight: normal;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

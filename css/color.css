@@ -1,0 +1,220 @@
+/*
+      ============================================================
+           Default Color Start
+      ============================================================
+*/
+.th-cl,
+.btn.read-more,
+.th-bg.btn:hover,
+.popup-icon:hover,
+.blog-meta li:hover *,
+.contact-info a.th-cl,
+.blog:hover .title a,
+.edu-team:hover .title a,
+.comment-thumb:hover .title a,
+.courses-thumb-1:hover .title a,
+.widget_categories ul li a:hover,
+.latest-post-thumb:hover .title a, 
+footer .widget-title:first-letter 
+{
+    color: #ff8a00
+}
+/*
+      ============================================================
+           Default Background Color Start
+      ============================================================
+*/
+.th-bg,
+.btn.th-bg,
+.btn:hover,
+.tags a:hover,
+.social-list li a:hover,
+.courses-list figure::before,
+.banner-caption .title::before,
+.section_heading h3::before,
+.link-wrapper::before,
+.edu-pagination .page-numbers.current,
+.edu-pagination .page-numbers:hover,
+.edu-team figure::before,
+.dl-menuwrapper li a:hover,
+.navigation ul li .children li:hover > a,
+.gallery-thumb::before,
+.courses-thumb-1.radius:hover figure,
+.widget_archive li:hover,
+.widget_archive li:hover a,
+.latest-post-thumb figure::before,
+.blog figure::before,
+.dl-menuwrapper button::after, 
+.section_heading h3:before, 
+.section_heading h3:after, 
+.pricing-table:hover .price-tag, 
+.pricing-table:before, 
+.courses-meta-wrap span.btn:hover, 
+.copy-right
+{
+    background-color: #ff8a00
+}
+.dl-menuwrapper button::after{
+  box-shadow:0 7px 0 #ff8a00,0 14px 0 #ff8a00;
+}
+/*
+      ============================================================
+           Default Border Color Start
+      ============================================================
+*/
+blockquote,
+.about-us figure::before,
+.form-control:focus,
+.comment-thumb:hover
+{
+    border-color: #ff8a00
+}
+/*
+      ============================================================
+           Default Transition Start
+      ============================================================
+*/
+label,
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a,
+input,
+.btn,
+.blog,
+figure,
+.title,
+.btn-2,
+.tags a,
+.title a,
+textarea,
+.svg-icon,
+.edu-team,
+.services-1,
+.social-list,
+.page-numbers,
+.link-wrapper, 
+.form-control,
+.comment-thumb,
+.pricing-table,
+.event-thumb-1,
+.event-thumb-1,
+.slick-dots li,
+.event-thumb-1 *,
+.courses-thumb-1,
+.courses-thumb-1 *,
+.services-1::after,
+.services-1::before, 
+.dl-menuwrapper li a,
+.blog figure::before,
+.link-wrapper::before,
+.edu-team figure::before,
+.social-box .social-list li,
+.social-list::before,
+.gallery-thumb *,
+.gallery-thumb::before,
+.courses-list *,
+.blog-meta *,
+.social-list li a,
+.dl-menuwrapper button,
+.dl-menuwrapper button::after,
+.latest-post-thumb figure::before,
+.courses-list figure::before, 
+.pricing-table .price-tag
+{
+    transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+}
+/*
+      ============================================================
+           Second Background Color Start
+      ============================================================
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+      ============================================================
+           Default Color Start
+      ============================================================
+*/
+.btn.transparent-bg{
+    color: #334d5c
+}
+/*
+      ============================================================
+           Default Background Color Start
+      ============================================================
+*/
+.btn
+{
+    background-color: #334d5c
+}
+/*
+      ============================================================
+           Default Border Color Start
+      ============================================================
+*/
+.btn.transparent-bg,
+.services-1::before, .services-1::after
+{
+    border-color: #334d5c
+}
+
+
+
+
+
+
+
+
+
+.courses-detail .edu-team,
+.blog,.tags a,
+.courses-thumb-1.radius,
+.gray-bg{
+    background-color: /*#f6f6f6*/#f5f5f5;
+}
+
+
+
+/*
+      ============================================================
+           Social Icons Background Color Start
+      ============================================================
+*/
+.google-bg{
+  color: #fff !important;
+  border: none !important;
+  background-color: #f0042a;
+}
+.twitter-bg{
+  color: #fff !important;
+  border: none !important;
+  background-color: #55acee;  
+}
+.linkedin-bg{
+  color: #fff !important;
+  border: none !important;
+  background-color: #00598e;  
+}
+.facebook-bg{
+  color: #fff !important;
+  border: none !important;
+  background-color: #3b5998;  
+}
+

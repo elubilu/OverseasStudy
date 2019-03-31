@@ -1,0 +1,548 @@
+
+.popup-icon{
+line-height: 40px;}
+/*
+=================================================
+				UP FROM 1200PX
+=================================================
+*/ 
+@media (min-width: 1367px) and (max-width: 1680px) {
+}
+/*
+=================================================
+				UP FROM 1200PX
+=================================================
+*/ 
+@media (min-width: 1200px) and (max-width: 1366px) {
+}
+/*
+=================================================
+			FROM 992PX TO 1199PX
+=================================================
+*/ 
+@media (min-width: 992px) and (max-width: 1199px) {
+	.services-1{
+		padding: 30px 25px;
+	}
+	.courses-thumb-1.radius .text{
+		padding: 0 25px;
+	}
+	.slider .slick-slide{
+		min-height: 750px;
+	}
+	.teacher-thumb-1 .overflow-text {
+	    padding: 16px 30px 0;
+	}
+	.teacher-thumb-1 p {
+	    float: left;
+	    width: 100%;
+	    max-height: 90px;
+	    overflow: hidden;
+	}
+	.courses-meta-list li{
+		padding: 0 5px;
+	}
+	.courses-meta-wrap{
+		padding: 0px 10px 10px 10px;
+	}
+	.gallery-list{
+		padding: 30px 0px;
+	}
+	.event-thumb-1 .text{
+		padding-left:20px; 
+		padding-right:20px; 
+	}
+	.contact-info > *{
+		font-size: 14px;
+	}
+	.event-thumb-1 .title,
+	.courses-thumb-1 .title,
+	.services-1 .title{
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+	}
+	.progress-caption .title{
+		font-size: 32px;
+	}
+	.courses-list .text{
+		padding-left:10px; 
+		padding-right:10px; 
+	}
+	.courses-list .courses-meta-list li{
+		padding: 0 9px;
+	}
+	.courses-list .text p{
+		float: left;
+		width: 100%;
+		overflow: hidden;
+		max-height: 77px;
+	}
+	.latest-post-thumb .title{
+		font-size:12px; 
+	}
+	.latest-post-thumb p{
+		float: left;
+		width: 100%;
+		overflow: hidden;
+		max-height: 50px;
+	}
+	.sidebar .widget-description .widget-title{
+		font-size: 20px;
+	}
+	.blog .blog-meta:first-child li i{
+		display: none;
+	}
+	.blog-list .text {
+	    padding: 23px 20px 27px;
+	}
+	.blog-list .blog-meta li{
+		font-size: 13px;
+	}
+	.blog-list .text p {
+	    float: left;
+	    width: 100%;
+	    overflow: hidden;
+	    max-height: 120px;
+	}
+}
+/*
+=================================================
+			FROM 0PX TO 979PX
+=================================================
+*/ 
+@media (max-width: 991px) {
+	.teacher-thumb-1 .designation{
+		display: none;
+	}
+	.about-us{
+		padding-left:50px; 
+		padding-right:50px; 
+	}
+	.header .logo img {
+	    width: 148px;
+	}
+	.map-wrap #map-canvas{
+		min-height: 350px;
+	}
+	.blog .blog-meta:first-child li a{
+		font-size: 12px;
+	}
+	.logo{
+		padding-top:18px; 
+		padding-bottom:18px; 
+	}
+	.navigation{
+		display: none;
+	}
+	.dl-menuwrapper{
+		float: right;
+		display: block;
+		padding: 16px 0;
+	}
+	.dl-menuwrapper .dl-menu{
+		right: 0;
+		left: auto;
+	}
+	.slider .slick-slide{
+		min-height: 550px;
+	}
+	.banner-caption .title:first-child{
+		font-size:30px; 
+	}
+	.banner-caption .title{
+		font-size: 35px;
+	}
+
+
+	.teacher-thumb-1 .overflow-text {
+	    padding: 25px 30px 0;
+	}
+	.teacher-thumb-1 .section_heading h3{
+		font-size: 26px;
+	}
+	.teacher-thumb-1 p {
+	    float: left;
+	    width: 100%;
+	    max-height: 50px;
+	    overflow: hidden;
+	    margin: 0 0 15px;
+	}
+	.gallery-list li{
+		width: 33.3%;
+	}
+	.gallery-list li:last-child{
+		display: none;
+	}
+	.event-thumb-1 .title,
+	.courses-thumb-1 .title,
+	.services-1 .title{
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+	}
+	footer .widget{
+		margin: 0 0 30px;
+	}
+	.sub-banner.flex-text {
+	    min-height: 270px;
+	    padding: 0;
+	}
+	/*
+	.sub-banner.flex-text .text {
+	    margin-top: 120px;
+	}*/
+	.progress-caption .title{
+		font-size: 26px;
+	}
+	.progress-caption p{
+		float: left;
+		width: 100%;
+		overflow: hidden;
+		max-height: 147px;
+	}
+	.gallery-list{
+		padding: 30px 0px;
+	}
+	.pricing-table:before, 
+	.pricing-table.right:before{
+		height: 100%;
+		width: 100%;
+		left: 0px;
+		bottom: -300px;
+		right: auto;
+	}
+}
+
+/*
+=================================================
+			FROM 768PX TO 979PX
+=================================================
+*/
+
+@media (min-width: 768px) and (max-width: 979px) {
+	
+  
+}
+/*
+=================================================
+			FROM 0PX TO 767PX
+=================================================
+*/
+@media (max-width: 767px) {
+
+	.gallery-list li:last-child{
+		display: block;
+	}
+	.about-us{
+		padding-left: 0; 
+		padding-right: 0; 
+	}
+	.search-popup .container{
+		max-width: 100%;
+	}
+	.about-us .text ul li p{
+		float: left;
+		width: auto;
+	}
+
+	.blog-list figure{
+		width: 100%;
+	}
+	.blog-list .text{
+		float: left;
+		width: 100%;
+	}
+	.slider .slick-slide {
+	    min-height: 300px;
+	}
+	.banner-caption .title:first-child {
+	    font-size: 25px;
+	}
+	.banner-caption .title {
+	    font-size: 25px;
+	}
+	.teacher-thumb-1 figure{
+		width: 100%;
+	}
+	.teacher-thumb-1 .overflow-text {
+		float: left;
+		width: 100%;
+	    padding: 12px 30px 20px;
+	}
+	.gallery-list li{
+		width: 50%;
+	}
+	.progress-section .row.flex-text{
+		display: block;
+	}
+	.header .affix-top,
+	.header .affix{
+		top: 0;
+		left: 0;
+		right: 0;
+		position: static !important;
+	}
+	.banner-caption-wrapper{
+		padding-bottom:8px; 
+	}
+	.sub-banner.flex-text {
+	    min-height: 172px;
+	    padding: 0;
+	}
+	/*
+	.sub-banner.flex-text .text {
+	    margin-top: 0;
+	}*/
+
+	.banner-caption p{
+		display: none;
+
+	}
+	.about-us .about-content{
+		padding: 0px;
+	}
+	.about-us figure{
+		display: none;
+	}
+	.section_heading p{
+		padding: 20px 0px 0px 0px;
+	}
+	.teacher-thumb-1{
+		padding: 20px;
+	}
+	.second-nav li{
+		padding: 0  8px;
+	}
+	.second-nav li a{
+		font-size: 12px;
+	}
+	.courses-list figure{
+		width: 100%;
+		max-width: inherit;
+	}
+	.gallery-page{
+
+	}
+}
+/*
+=================================================
+			FROM 0PX TO 0PX
+=================================================
+*/
+@media (min-width: 481px) and (max-width: 694px) {
+	
+}
+/*
+=================================================
+			FROM 0PX TO 0PX
+=================================================
+*/
+@media (max-width: 480px) {
+	.price-tag {
+	    height: 100px;
+	    font-size: 35px;
+	    max-width: 100px;
+	    min-width: 100px;
+	    line-height: 100px;
+	}
+	.courses-thumb-1.radius .text{
+		padding: 0 20px;
+	}
+	.event-thumb-1 .text{
+		padding-left:10px; 
+		padding-right:10px; 
+	}
+	.event-thumb-1 .btn{
+		font-size: 12px;
+	}
+	#teacher-detail .teacher-thumb-1 .overflow-text{
+		padding-right:0;
+		padding-left:0;  
+	}
+	.sub-banner .title{
+		font-size: 26px;
+		margin-bottom: 3px;
+	}
+	.blog-detail .title:first-child{
+		font-size: 16px;
+	}
+	.error-page .error-text::after{
+		width: 280px;
+	}
+	.error-page .error-text span{
+		font-size: 120px;
+		line-height: 120px;
+	}
+	.blog .text{
+		padding-right:20px; 
+		padding-left:20px; 
+	}
+	.comment-thumb{
+		text-align: center;
+	}
+	.comment-thumb figure{
+		display: block;
+		float: none;
+		margin: 0 auto 20px;
+	}
+	.comment-thumb .text{
+		padding: 0;
+		float: left;
+		width: 100%;
+	}
+	.comment-thumb .title{
+		width: 100%;
+	}
+	.comment-thumb .blog-meta{
+		width: 100%;
+	}
+	.comment-thumb .text .comment-reply-link{
+		float: none;
+		display: inline-block;
+	}
+	.comment-wrap .children{
+		padding: 0;
+	}
+	.widget-description .widget-title{
+		font-size: 21px;
+	}
+	.latest-post-thumb .title{
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+	.courses-detail .title{
+		font-size: 22px;
+	}
+	.features-list li{
+		width: 100%;
+	}
+	.courses-list .text{
+		padding-left:20px; 
+		padding-right:20px; 
+	}
+	.courses-list figure,
+	.courses-list .text{
+		float: left;
+		width: 100%;
+	}
+	.joined-bg .text .counter{
+		font-size: 55px;
+		line-height: 55px;
+	}
+	footer, .section, section {
+	    padding: 50px 0 20px;
+	}
+	.btn{
+		padding: 10px 20px;
+	}
+	.top-nav li{
+		margin: 0 0 0 7px;
+	}
+	.top-nav li::before{
+		margin: 0 6px 0 0;
+	}
+	.top-nav .social-list li {
+	    margin: 0 10px 0 0px;
+	}
+	header .logo{
+		max-width:200px; 
+	}
+	.slider .slick-slide {
+	    min-height: 250px;
+	}
+	.banner-caption .title:first-child,
+	.banner-caption .banner-description,
+	.banner-caption .btn {
+		display: none;
+	}
+	.banner-caption .title{
+		display: block;
+		font-size: 18px;
+		padding-left:10px; 
+		padding-right:10px; 
+		margin-bottom: 0;
+	} 
+	.section_heading h3{
+		font-size: 24px;
+	}
+	.about-us .text p{
+		float: left;
+		width: 100%;
+		max-height: 90px;
+		overflow: hidden;
+	}
+	.about-us .btn{
+		font-size:12px; 
+		padding: 10px 13px 10px;
+	}
+	.teacher-thumb-1 .contact-info > *{
+		/*width: 100%;*/
+	}
+	.contact-info.social-info span{
+		display: none;
+	}
+	.courses-meta-list li{
+		padding: 0 10px;
+	}
+	.contact-info > *{
+		font-size: 14px;
+	}
+	.second-nav li {
+		padding: 0 7px;
+	}
+	.second-nav li a{
+		font-size:12px; 
+	}
+	.about-us .text ul li p{
+		float: left;
+		width: auto;
+	}
+	.services-1{
+		padding: 20px;
+	}
+	.teacher-thumb-1{
+		padding: 0px;
+	}
+	.courses-meta-wrap{
+		padding: 0px;
+	}
+	.courses-thumb-1 .text{
+		padding: 0px 20px;
+	}
+	.about-us .about-content h3{
+		font-size: 26px;
+	}
+	.courses-list .courses-meta-list li{
+		width: 100%;
+		padding: 0px;
+		border: none;
+	}
+	.courses-list .courses-meta-list li span, .courses-list .courses-meta-list li em{
+		float: left;
+		text-align: left;
+		width: 50%;
+	}
+	.courses-list figure{
+		padding: 0px;
+	}
+	.courses-list .text{
+		padding: 15px 15px;
+	}
+	.blog .blog-meta{
+		padding: 10px;
+	}
+	.blog .blog-meta li i{
+		display: none;
+	}
+	.blog-list .blog-meta{
+		padding: 0px;
+	}
+	.edu-pagination .page-numbers{
+		width: 26px;
+	}
+}
+@media (max-width: 382px) {
+	
+}
